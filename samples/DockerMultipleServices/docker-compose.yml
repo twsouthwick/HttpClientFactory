@@ -1,0 +1,17 @@
+version: '2'
+services:
+  webapp:
+    build:
+      context: ../../
+      dockerfile: ./samples/DockerMultipleServices/WebApp/Dockerfile
+    image: webapp
+    depends_on: [ api ]
+    ports:
+      - 80
+  api:
+    build:
+      context: ../../
+      dockerfile: ./samples/DockerMultipleServices/Service/Dockerfile
+    image: service
+    expose:
+      - 80
