@@ -20,9 +20,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DockerMultipleServices", "D
 		samples\DockerMultipleServices\docker-compose.yml = samples\DockerMultipleServices\docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "samples\DockerMultipleServices\WebApp\Service.csproj", "{3734583A-8611-4EE5-9B9A-0781C8AA5E54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "samples\DockerMultipleServices\Service\Service.csproj", "{3734583A-8611-4EE5-9B9A-0781C8AA5E54}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "samples\DockerMultipleServices\Service\WebApp.csproj", "{4DC1F464-FD6E-4104-A875-CFA26072D2AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "samples\DockerMultipleServices\WebApp\WebApp.csproj", "{4DC1F464-FD6E-4104-A875-CFA26072D2AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
